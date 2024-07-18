@@ -1,0 +1,17 @@
+
+
+n = int(input(' Введите колличество строк : '))
+m = int(input(' Введите колличество столбцов : '))
+volue = int(input(' Введите число заполнения : '))
+def get_matrix(n, m, volue):
+	matrix = []
+	g_matrix = []
+	for i in range(m) :
+		matrix.append(volue)
+	for t in range(n):
+		g_matrix.append(matrix)
+	print(*g_matrix, sep = "\n")
+	
+		
+
+print(get_matrix(n, m, volue))	
